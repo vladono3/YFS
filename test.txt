@@ -1,1 +1,2 @@
 prank
+check 1
