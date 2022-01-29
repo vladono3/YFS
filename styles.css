@@ -80,20 +80,20 @@ header nav .button:hover{
 
 .loginLP {
     position: relative;
-    width: 1440px;
+    width: auto;
     height: 1024px;
     background: #0F234A;
-
+    overflow: hidden;
 }
 
 /*Login Landing page settings */
 
 .lgLPh1 {
-    position: absolute;
+    position: relative;
     width: 646px;
     height: 56px;
     left: calc(50% - 646px/2);
-    top: calc(50% - 56px/2 - 332px);
+    top: calc(50% - 56px/2 - 404px);
 
     font-family: Roboto;
     font-style: normal;
@@ -106,12 +106,13 @@ header nav .button:hover{
 
 }
 
-.container1lgLP {
-    position: absolute;
-    width: 884px;
-    height: 453px;
+.containerlgLP {
+    position: relative;
+    float: center;
+    width: 880px;
+    height: 450px;
     left: 278px;
-    top: 286px;
+    top: calc(50% - 56px/2 - 304px);
 
     background: #FFFFFF;
 
@@ -124,15 +125,50 @@ header nav .button:hover{
     top: 25%;  
     left: 10%;
 
-    background: #000000;
-
 }
 
 .containerform {
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    to
+    position: relative;
+    left: 45%;
+    top: 25%;
+}
+
+.containerusername {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.containerpassword {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.containerbutton {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0F234A;
+    color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body div a {
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+html body div div img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+#fname {
+    width: 300px;
+    height: 30px;
 }
