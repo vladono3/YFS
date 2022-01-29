@@ -76,3 +76,63 @@ header nav .button:hover{
     transform: translate(-50%, -50%);
     font-size: 2em;
 }
+/* Login Landing page General Setting */
+
+.loginLP {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #0F234A;
+
+}
+
+/*Login Landing page settings */
+
+.lgLPh1 {
+    position: absolute;
+    width: 646px;
+    height: 56px;
+    left: calc(50% - 646px/2);
+    top: calc(50% - 56px/2 - 332px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.container1lgLP {
+    position: absolute;
+    width: 884px;
+    height: 453px;
+    left: 278px;
+    top: 286px;
+
+    background: #FFFFFF;
+
+}
+
+.containerlogo1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 25%;  
+    left: 10%;
+
+    background: #000000;
+
+}
+
+.containerform {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    to
+}
