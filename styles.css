@@ -1,4 +1,4 @@
-/* DEFAULT VALUES */
+/* DEFAULT/GLOBAL VALUES */
 *{
     margin: 0;
     padding: 0;
@@ -26,50 +26,35 @@ header .inner{
     overflow-x: hidden;
 
 }
+/*---------------------------------------Main menu Links-----------------------------------------*/
 
-/*------------------------------------Header Items-------------------------------------------------*/
-
-/* Drop down profileicon*/
-.dropbtn {
-    color: white;
-    border: none;
-    justify-content: left;
-    position: relative;
-    width: 60px;
-    height: 60px;
-    left: 1250px;
-    border-radius: 50%;
-    top: 20px;
+.linkmenu {
+    width: 300px;
+    height: 100vh;
+    float: left;
+    background-color: #0F234A;
+    border-right: 2px solid white;
 }
-.dropdown {
+
+.mainmenutext {
     position: relative;
-    display: inline-block;
+    width: 300px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 100px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+
 }
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 100;
-    left: 1200px;
-    top: 15px;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 0px;
-    text-decoration: none;
-    display: block;
-  }
-  .dropdown-content a:hover {background-color: #ddd;}
-
-  .dropdown:hover .dropdown-content {display: block;}
-
-
-
-
-
-
+  
 
 
 
