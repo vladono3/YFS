@@ -127,12 +127,11 @@ header nav .button:hover{
     background: #000000;
 
 }
-
 .containerform {
+    display: flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 42px;
-    to
 }
