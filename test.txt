@@ -1,3 +1,0 @@
-prank
-check 1
-clean up David's mess
